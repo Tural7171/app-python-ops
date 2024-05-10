@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: https://github.com/Tural7171/app-phyton.git, branch: 'main'
+                git url: "https://github.com/Tural7171/app-phyton.git", branch: 'main'
             }
         }
 
